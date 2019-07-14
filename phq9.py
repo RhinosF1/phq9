@@ -21,3 +21,4 @@ a8 = input(' Moving or speaking so slowly that other people could have noticed. 
 a9 = input('Thoughts that you would be better off dead or of hurting yourself in some way.  :')
 score = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9
 print('Score: ' + str(score) + '/36')
+input('press enter to close')
