@@ -1,0 +1,12 @@
+print('Over the last 2 weeks, how often have you been bothered by any of the following problems?')
+a1 = input('Little interest or pleasure in doing things :')
+a2 = input('Feeling down, depressed, or hopeless :')
+a3 = input('Trouble falling/staying asleep, sleeping too much  :')
+a4 = input('Feeling tired or having little energy :')
+a5 = input('Poor appetite or overeating :')
+a6 = input('Feeling bad about yourself or that you are a failure or have let yourself or your family down  :')
+a7 = input('Trouble concentrating on things, such as reading the newspaper or watching television.  :')
+a8 = input(' Moving or speaking so slowly that other people could have noticed. Or the opposite; being so fidgety or restless that you have been moving around a lot more than usual. :')
+a9 = input('Thoughts that you would be better off dead or of hurting yourself in some way.  :')
+score = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9
+print('Score: ' + str(score) + '/36')
